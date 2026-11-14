@@ -1,0 +1,11 @@
+.live-project{display:grid;grid-template-columns:minmax(260px,.75fr) 1.25fr;gap:34px;align-items:center;padding:34px 5vw;background:var(--ink);color:white;border-block:var(--line)}
+.live-project-art{border:2px solid white;background:#201b1e;box-shadow:7px 7px 0 var(--red);max-width:410px;transform:rotate(-1.2deg)}
+.live-project-art img{width:100%;aspect-ratio:1.58;object-fit:cover}
+.live-project-copy{max-width:720px}.live-project-copy .eyebrow{color:var(--yellow)}
+.live-project-copy h2{font:900 clamp(38px,5vw,68px)/.9 Arial,sans-serif;letter-spacing:-.06em;margin:5px 0 15px}
+.live-project-copy>p:not(.eyebrow){font:17px/1.55 Arial,sans-serif;color:#e8e2d6;max-width:650px}
+.live-project-actions,.contact-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.live-project .button:not(.primary){color:var(--ink)}
+.itch-link-note{font-size:11px!important;margin-bottom:0}.itch-link-note a{color:var(--blue);font-weight:bold}
+@media(max-width:950px){.live-project{grid-template-columns:1fr}.live-project-art{max-width:600px}.live-project-copy{max-width:800px}}
+@media(max-width:620px){.live-project{padding:32px 20px}.live-project-actions .button,.contact-actions .button{width:100%;text-align:center}}

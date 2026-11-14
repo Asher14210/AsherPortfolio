@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Asher — character-focused 2D artist, UI designer, and Spine animator.">
-  <title>Asher — 2D Artist & Spine Animator</title>
+  <meta name="description" content="Asher — 2D artist, animator, visual designer, and game designer working across characters, UI, and strange worlds.">
+  <title>Asher — 2D Artist, Animator & Visual Designer</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home-overrides.css">
   <script defer src="script.js"></script>
 </head>
 <body>
@@ -17,12 +18,13 @@
     <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">MENU</button>
     <nav id="site-nav" aria-label="Primary navigation">
       <a href="#work">WORK</a>
+      <a href="gamejam.html">GAME JAMS</a>
       <a href="#skills">SKILLS</a>
       <a href="#process">PROCESS</a>
       <a href="#about">ABOUT</a>
       <a href="#contact">CONTACT</a>
     </nav>
-    <div class="status"><i></i> AVAILABLE FOR GAME JAMS</div>
+    <div class="status"><i></i> OPEN TO GAME JAMS + COLLABS</div>
   </header>
 
   <main id="top">
@@ -30,10 +32,11 @@
       <div class="hero-copy">
         <p class="eyebrow">WELCOME TO MY CORNER OF THE WEB // UTC+8</p>
         <h1 id="hero-title">CHARACTERS<br><em>with a pulse.</em></h1>
-        <p class="lede">I’m Asher, a character-focused <strong>2D artist and UI designer</strong> exploring color, composition, and visual storytelling—plus layered assets and Spine animation for games.</p>
+        <p class="lede">I’m Asher, a <strong>2D artist, animator, visual designer, and game designer</strong> exploring expressive characters, strange worlds, and interfaces that feel like they belong to the same game.</p>
         <div class="hero-actions">
           <a class="button primary" href="#work">ENTER ARCHIVE ↓</a>
           <a class="button" href="#contact">CONTACT</a>
+          <a class="button" href="https://asherhz.itch.io/" target="_blank" rel="noreferrer">VISIT ITCH.IO ↗</a>
         </div>
         <div class="marquee" aria-label="Selected disciplines"><div>CHARACTER DESIGN ✦ ILLUSTRATION ✦ UI DESIGN ✦ SPINE ANIMATION ✦ VISUAL DEVELOPMENT ✦&nbsp;</div></div>
       </div>
@@ -49,6 +52,16 @@
       <div><strong>2D + UI</strong><span>primary focus</span></div>
       <div><strong>SPINE</strong><span>secondary skill</span></div>
       <div><strong>EN / 中文</strong><span>bilingual artist</span></div>
+    </section>
+
+    <section class="live-project" aria-labelledby="live-project-title">
+      <div class="live-project-art"><img src="assets/gamejam/mycophobia-poster.png" alt="Mycophobia fungal horror key art"></div>
+      <div class="live-project-copy">
+        <p class="eyebrow">LIVE PROJECT // SCREAM JAM 2026</p>
+        <h2 id="live-project-title">MYCOPHOBIA</h2>
+        <p>Mycophobia is a short horror adventure / puzzle game set in a fungal underground village, with a visual world built around characters, key art, and a growing fungal threat.</p>
+        <div class="live-project-actions"><a class="button primary" href="https://etherstep.itch.io/mycophobia" target="_blank" rel="noreferrer">PLAY / VIEW GAME ↗</a><a class="button" href="gamejam.html">OPEN GAME JAM PAGE</a></div>
+      </div>
     </section>
 
     <section class="work-section" id="work">
@@ -159,7 +172,7 @@ Optional notes:
         <div class="titlebar"><span>ABOUT_ME.TXT</span><span>— □ ×</span></div>
         <div class="about-body">
           <div class="pixel-portrait"><img src="asher-portrait.jpg" alt="Asher's illustrated avatar"></div>
-          <div><p class="eyebrow">HELLO, INTERNET!</p><h2>I’M ASHER.</h2><p>I’m a student 2D artist and designer with 3–4 years of experience creating character-focused artwork. I like trying different visual styles while keeping composition, color, and storytelling at the center.</p><p>I’m especially interested in historical settings, fantasy, science fiction, and projects with imaginative worlds. I’m adaptable, communicative, quick to learn, and very open to feedback.</p></div>
+          <div><p class="eyebrow">HELLO, INTERNET!</p><h2>I’M ASHER.</h2><p>I’m a student 2D artist, animator, visual designer, and game designer with 3–4 years of experience. I draw, animate, experiment, and enjoy adapting to different visual directions, mediums, and game genres.</p><p>My work moves between character design, illustration, backgrounds, scene composition, pixel art, UI/UX, prop design, Spine 2D, Live2D, and 2D asset preparation.</p><p>I’m especially interested in psychological horror, surrealism, fantasy, experimental narratives, RPGs, and visual novels—honestly, anything with an interesting world.</p><p class="itch-link-note"><a href="https://asherhz.itch.io/" target="_blank" rel="noreferrer">MORE WORK + GAME EXPERIMENTS ON ITCH.IO ↗</a></p></div>
         </div>
       </div>
       <aside class="availability">
@@ -172,13 +185,13 @@ Optional notes:
     <section class="contact-section" id="contact">
       <p class="eyebrow">/04 SEND A SIGNAL</p>
       <h2>LET’S MAKE A<br><em>strange new world.</em></h2>
-      <p>Looking for a character artist, UI designer, or Spine animator for your next jam? Discord is the fastest way to reach me.</p>
-      <button class="button primary copy-discord" data-copy="asherfatal03">COPY DISCORD: ASHERFATAL03</button>
+      <p>Looking for a character artist, UI designer, animator, or visual designer for your next jam? Discord is the fastest way to reach me.</p>
+      <div class="contact-actions"><button class="button primary copy-discord" data-copy="asherfatal03">COPY DISCORD: ASHERFATAL03</button><a class="button" href="https://asherhz.itch.io/" target="_blank" rel="noreferrer">VIEW ITCH.IO ↗</a></div>
       <p class="copy-status" aria-live="polite"></p>
     </section>
   </main>
 
-  <footer><span>© 2026 ASHER</span><span>HAND-CODED WITH TOO MANY LAYERS</span><a href="#top">BACK TO TOP ↑</a></footer>
+  <footer><span>© 2026 ASHER</span><span>HAND-CODED WITH TOO MANY LAYERS</span><a href="https://asherhz.itch.io/" target="_blank" rel="noreferrer">ITCH.IO ↗</a><a href="#top">BACK TO TOP ↑</a></footer>
 
   <dialog class="lightbox" aria-label="Artwork viewer">
     <button class="lightbox-close" aria-label="Close artwork viewer">×</button>

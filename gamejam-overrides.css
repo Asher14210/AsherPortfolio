@@ -1,0 +1,4 @@
+.gj-feature-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.gj-contact-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:10px}
+.gj-live a{color:var(--gj-acid);text-decoration:none}.gj-live a:hover,.gj-live a:focus{color:white}
+@media(max-width:620px){.gj-feature-actions .gj-button,.gj-contact-actions .gj-button{width:100%;text-align:center}}
